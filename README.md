@@ -10,6 +10,9 @@ The project should also run natively on the Meta Quest.
 
 ## Getting started, desktop
 
+Full instructions are in the <https://github.com/cwi-dis/VR2Gather> repository, please refer to those. But here are the quick steps:
+
+- Ensure you have `git` installed, and you have done `git lfs install`.
 - Clone this repository.
 - Install  the _cwipc_ point cloud package. Instructions are can be found at <https://github.com/cwi-dis/cwipc>
 - Open the project in the Unity Editor.
@@ -18,6 +21,7 @@ The project should also run natively on the Meta Quest.
 
 ## Getting started, Meta Quest
 
+- Ensure you have `git` installed, and you have done `git lfs install`.
 - Clone this repository.
 - Ensure you have Android build support included in your Unity install. Unity Hub can do this for you.
 - No need to install _cwipc_, the native support for Android is included.
