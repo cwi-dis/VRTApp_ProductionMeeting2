@@ -269,7 +269,7 @@
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "c4c648634b1af12b5a4dfd2eb6d5d41f35698592"
+      "hash": "376e373f09b576a93a155c561643b2ea7029cf16"
     },
     "nl.cwi.dis.vr2gather": {
       "version": "git+https://github.com/cwi-dis/VR2Gather?path=/nl.cwi.dis.vr2gather",
@@ -278,7 +278,7 @@
       "dependencies": {
         "nl.cwi.dis.vr2gather.nativelibraries": "0.9.5",
         "nl.cwi.dis.vr2gather.nativelibraries.webrtc": "0.9.5",
-        "nl.cwi.dis.cwipc": "7.5.4",
+        "nl.cwi.dis.cwipc": "7.6.3",
         "com.itisnajim.socketiounity": "1.1.4",
         "com.unity.animation.rigging": "1.2.1",
         "com.unity.recorder": "4.0.2",
@@ -289,7 +289,7 @@
         "com.unity.xr.openxr": "1.10.0",
         "com.unity.nuget.newtonsoft-json": "3.2.1"
       },
-      "hash": "23d4a988a80647ef77c57cdc158f56f9eb64c07f"
+      "hash": "afee7a1edbc1abf768948732d20b9db3f423ee11"
     },
     "nl.cwi.dis.vr2gather.nativelibraries": {
       "version": "git+https://github.com/cwi-dis/VR2G-nativeLibraries?path=/nl.cwi.dis.vr2gather.nativelibraries",
