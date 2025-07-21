@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using VRT.UserRepresentation.PointCloud;
 using VRT.Pilots.Common;
-using VRT.Pilots.FiveDCulture;
+using VRT.Pilots.MediaScape;
 using Cwipc;
 
 public class EnableMediascapeExtras : MonoBehaviour
@@ -23,7 +23,7 @@ public class EnableMediascapeExtras : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        FiveDCultureController ctrl = (FiveDCultureController)FiveDCultureController.Instance;
+        MediaScapeController ctrl = (MediaScapeController)MediaScapeController.Instance;
         PlayerControllerBase playerManager = GetComponent<PlayerControllerBase>();
         if (playerManager == null) playerManager = GetComponentInParent<PlayerControllerBase>();
         if (playerManager.isVisible || butOnlyWhenVisible == false)

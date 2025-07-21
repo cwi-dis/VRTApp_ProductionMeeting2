@@ -1,0 +1,22 @@
+{
+    "name": "MediaScape",
+    "rootNamespace": "",
+    "references": [
+        "GUID:af6a1da4aa3e8478baf73e0bb3eddfee",
+        "GUID:28c5e819ece8a0746abb16dc5aa91f44",
+        "GUID:ba171b3dd2a51234ab864770f99741a5",
+        "GUID:6f16117c2be38af4f989c1918efefead",
+        "GUID:8830b9e06f5eb184f963f1aec82206c7",
+        "GUID:483ef9d2ea25bb34cb9cdc48962c5283",
+        "GUID:4af040fa3c94c184cb1ec89f9fcf7b18"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

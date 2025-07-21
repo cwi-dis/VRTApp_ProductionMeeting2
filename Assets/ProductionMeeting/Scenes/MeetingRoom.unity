@@ -5026,7 +5026,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1266743995988498430, guid: 95dbe82a05fab4a79ad218ffe7208397, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3580719658859111901, guid: 95dbe82a05fab4a79ad218ffe7208397, type: 3}
       propertyPath: m_LocalScale.x
@@ -5094,7 +5094,7 @@ PrefabInstance:
       objectReference: {fileID: 1829427763581481309}
     - target: {fileID: 6323472805650975742, guid: 95dbe82a05fab4a79ad218ffe7208397, type: 3}
       propertyPath: OnTrigger.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
-      value: 5DCultureHistoricalNew
+      value: MediaScape_Stage
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
