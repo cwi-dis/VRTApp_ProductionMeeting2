@@ -1,0 +1,19 @@
+# MTL Exporter v1.0 by Seungwoo Oh at CLO - Virtual Fashion Inc.
+newmtl Silk_Knit_Jersey_FRONT_8020
+Ka 0.033276 0.032268 0.020167
+Kd 0.129412 0.125490 0.078431
+Ks 0.000000 0.000000 0.000000
+Ns 2.000000
+illum 2
+d 1.000000
+map_Ka Silk_Knit_Jersey_diffuse.jpg
+map_Kd Silk_Knit_Jersey_diffuse.jpg
+map_bump Silk_Knit_Jersey_normal.jpg
+map_bump Silk_Knit_Jersey_normal_NRM_100.jpg
+newmtl Material5827
+Ka 0.257132 0.257132 0.257132
+Kd 1.000000 1.000000 1.000000
+Ks 0.900000 0.900000 0.900000
+Ns 128.000000
+illum 2
+d 1.000000
