@@ -30434,6 +30434,136 @@ Transform:
   - {fileID: 87857595}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &717785049
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 58521771578613660, guid: 56ce66b554352458ab439702ebf3f769, type: 3}
+      propertyPath: NetworkId
+      value: 10c2f831-74b7-4b84-b9e5-7bd491ee60f9
+      objectReference: {fileID: 0}
+    - target: {fileID: 647552580497254087, guid: 56ce66b554352458ab439702ebf3f769, type: 3}
+      propertyPath: NetworkId
+      value: ad611b6f-6173-40a9-ad63-b38311fee499
+      objectReference: {fileID: 0}
+    - target: {fileID: 1818211641761053389, guid: 56ce66b554352458ab439702ebf3f769, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.828
+      objectReference: {fileID: 0}
+    - target: {fileID: 1818211641761053389, guid: 56ce66b554352458ab439702ebf3f769, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1818211641761053389, guid: 56ce66b554352458ab439702ebf3f769, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 11.396
+      objectReference: {fileID: 0}
+    - target: {fileID: 1818211641761053389, guid: 56ce66b554352458ab439702ebf3f769, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 1818211641761053389, guid: 56ce66b554352458ab439702ebf3f769, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1818211641761053389, guid: 56ce66b554352458ab439702ebf3f769, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 1818211641761053389, guid: 56ce66b554352458ab439702ebf3f769, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1818211641761053389, guid: 56ce66b554352458ab439702ebf3f769, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1818211641761053389, guid: 56ce66b554352458ab439702ebf3f769, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 1818211641761053389, guid: 56ce66b554352458ab439702ebf3f769, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2757498706272721920, guid: 56ce66b554352458ab439702ebf3f769, type: 3}
+      propertyPath: NetworkId
+      value: 610b010b-8a61-498a-9b92-562cf881b261
+      objectReference: {fileID: 0}
+    - target: {fileID: 2996369565381309694, guid: 56ce66b554352458ab439702ebf3f769, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3767884480871728144, guid: 56ce66b554352458ab439702ebf3f769, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3995373780934996199, guid: 56ce66b554352458ab439702ebf3f769, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4170257853242692849, guid: 56ce66b554352458ab439702ebf3f769, type: 3}
+      propertyPath: m_Name
+      value: SceneChange
+      objectReference: {fileID: 0}
+    - target: {fileID: 4301784924845182387, guid: 56ce66b554352458ab439702ebf3f769, type: 3}
+      propertyPath: NetworkId
+      value: 4150c241-5b41-4388-87f4-93bc8748f6c0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4525123004095197083, guid: 56ce66b554352458ab439702ebf3f769, type: 3}
+      propertyPath: NetworkId
+      value: 20e4946e-629a-4f92-9991-67eefd5feb83
+      objectReference: {fileID: 0}
+    - target: {fileID: 8117580417571788221, guid: 56ce66b554352458ab439702ebf3f769, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8209762028040441920, guid: 56ce66b554352458ab439702ebf3f769, type: 3}
+      propertyPath: NetworkId
+      value: 07665df2-da1d-4a7f-9e1c-e10f30acdef3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8209762028040441920, guid: 56ce66b554352458ab439702ebf3f769, type: 3}
+      propertyPath: OnTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8209762028040441920, guid: 56ce66b554352458ab439702ebf3f769, type: 3}
+      propertyPath: OnTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2108755284543123671}
+    - target: {fileID: 8209762028040441920, guid: 56ce66b554352458ab439702ebf3f769, type: 3}
+      propertyPath: OnTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadSceneName
+      objectReference: {fileID: 0}
+    - target: {fileID: 8209762028040441920, guid: 56ce66b554352458ab439702ebf3f769, type: 3}
+      propertyPath: OnTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: VRT.Pilots.ProductionMeeting.MeetingRoomController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8675368367459290270, guid: 56ce66b554352458ab439702ebf3f769, type: 3}
+      propertyPath: NetworkId
+      value: 26611e75-8467-463c-9d04-52a060df4ee3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8963880353861576937, guid: 56ce66b554352458ab439702ebf3f769, type: 3}
+      propertyPath: NetworkId
+      value: 7c8b4721-23fc-4d5f-b9e2-9bd4d2152c9f
+      objectReference: {fileID: 0}
+    - target: {fileID: 9221629615579543726, guid: 56ce66b554352458ab439702ebf3f769, type: 3}
+      propertyPath: NetworkId
+      value: edc07719-5d11-4131-8dd9-7f93c4680550
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 56ce66b554352458ab439702ebf3f769, type: 3}
+--- !u!1 &717785050 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4170257853242692849, guid: 56ce66b554352458ab439702ebf3f769, type: 3}
+  m_PrefabInstance: {fileID: 717785049}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &720610201
 GameObject:
   m_ObjectHideFlags: 0
@@ -43491,7 +43621,7 @@ PrefabInstance:
     - target: {fileID: 2821631869251763831, guid: 482c3a59ed1d6294db4363ff6db0165d, type: 3}
       propertyPath: OnTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 2108755284543123671}
+      objectReference: {fileID: 0}
     - target: {fileID: 2821631869251763831, guid: 482c3a59ed1d6294db4363ff6db0165d, type: 3}
       propertyPath: OnTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: LoadNewScene
@@ -50549,7 +50679,7 @@ MonoBehaviour:
           m_StringArgument: 5DCultureCrazy
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 2108755284543123671}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.PilotController, VRT.Pilots.Common
         m_MethodName: LoadNewScene
         m_Mode: 5
@@ -66524,7 +66654,7 @@ PrefabInstance:
     - target: {fileID: 2821631869251763831, guid: 482c3a59ed1d6294db4363ff6db0165d, type: 3}
       propertyPath: OnTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 2108755284543123671}
+      objectReference: {fileID: 0}
     - target: {fileID: 2821631869251763831, guid: 482c3a59ed1d6294db4363ff6db0165d, type: 3}
       propertyPath: OnTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: LoadNewScene
@@ -73814,7 +73944,7 @@ PrefabInstance:
     - target: {fileID: 2821631869251763831, guid: 482c3a59ed1d6294db4363ff6db0165d, type: 3}
       propertyPath: OnTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 2108755284543123671}
+      objectReference: {fileID: 0}
     - target: {fileID: 2821631869251763831, guid: 482c3a59ed1d6294db4363ff6db0165d, type: 3}
       propertyPath: OnTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: LoadNewScene
@@ -80089,20 +80219,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 2108755284543123670}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2c20b845c4fd93b4c9e4463079df1fb8, type: 3}
+  m_Script: {fileID: 11500000, guid: 277db0b5518804a3e8d3efcb43b02ed2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startFadedOut: 1
+  startFadedOut: 0
   fadeOutText: 
-  allowDirectInteractionInScene: 1
+  allowDirectInteractionInScene: 0
   sceneIsSingleUser: 0
   NextSceneOnSessionEnd: VRTLoginManager
   m_directInteractionDisabled: 0
-  enableCostume: 0
-  useKinectSkeletons: 0
-  enablePointcloudHead: 0
-  enableFade: 1
-  fadeInText: 
+  sceneChange: {fileID: 717785050}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -80139,3 +80265,4 @@ SceneRoots:
   - {fileID: 166721864}
   - {fileID: 177466455}
   - {fileID: 1845925035}
+  - {fileID: 717785049}
