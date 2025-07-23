@@ -60,7 +60,7 @@ namespace VRT.Pilots.ProductionMeeting
                 }
 
                 Transform training = sceneOptions.Find("Training");
-                if (meeting != null && meeting.gameObject.activeSelf)
+                if (training != null && training.gameObject.activeSelf)
                 {
                     if (SceneManager.GetActiveScene().name != "Training")
                         LoadNewScene("Training");
