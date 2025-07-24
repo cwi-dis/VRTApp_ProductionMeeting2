@@ -3309,7 +3309,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 8b52af5b2c3c3a149b0445b99891f0e9, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -75533,6 +75533,14 @@ PrefabInstance:
       propertyPath: NetworkId
       value: c1a456b6-573c-4259-ae8c-04bcfb69b570
       objectReference: {fileID: 0}
+    - target: {fileID: 1563026871151455881, guid: 835999027a04e6f42bc64c7846ef2f64, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5191226132224245914, guid: 835999027a04e6f42bc64c7846ef2f64, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5393717902147256158, guid: 835999027a04e6f42bc64c7846ef2f64, type: 3}
       propertyPath: NetworkId
       value: 730d2858-610a-4b17-942c-b2cc28c1f8c9
@@ -126948,6 +126956,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: exit_text
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 59658403a37e4b0438561180193e4d5a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -128319,6 +128331,26 @@ PrefabInstance:
     - target: {fileID: 2757498706272721920, guid: 56ce66b554352458ab439702ebf3f769, type: 3}
       propertyPath: NetworkId
       value: 12e538c8-59c3-45f2-9385-4f331378fc13
+      objectReference: {fileID: 0}
+    - target: {fileID: 2878839419867591620, guid: 56ce66b554352458ab439702ebf3f769, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2878839419867591620, guid: 56ce66b554352458ab439702ebf3f769, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2878839419867591620, guid: 56ce66b554352458ab439702ebf3f769, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2878839419867591620, guid: 56ce66b554352458ab439702ebf3f769, type: 3}
+      propertyPath: m_Intensity
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2878839419867591620, guid: 56ce66b554352458ab439702ebf3f769, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3606572636312163023, guid: 56ce66b554352458ab439702ebf3f769, type: 3}
       propertyPath: m_IsActive
@@ -142522,6 +142554,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8398282535172667529, guid: 83c290f0e950bf8499cbd8499fc0cfea, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8398282535172667529, guid: 83c290f0e950bf8499cbd8499fc0cfea, type: 3}
+      propertyPath: m_BounceIntensity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8398282535172667531, guid: 83c290f0e950bf8499cbd8499fc0cfea, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8398282535987546352, guid: 83c290f0e950bf8499cbd8499fc0cfea, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.2
@@ -145073,7 +145117,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 8b52af5b2c3c3a149b0445b99891f0e9, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -182210,10 +182254,18 @@ PrefabInstance:
       propertyPath: NetworkId
       value: 84550519-9467-4ddd-8bee-42e5594efbe3
       objectReference: {fileID: 0}
+    - target: {fileID: 1563026871151455881, guid: 835999027a04e6f42bc64c7846ef2f64, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1563026871203412738, guid: 835999027a04e6f42bc64c7846ef2f64, type: 3}
       propertyPath: m_TargetTexture
       value: 
       objectReference: {fileID: 8400000, guid: 53f792935f1d43247944ab44f4a11f9e, type: 2}
+    - target: {fileID: 5191226132224245914, guid: 835999027a04e6f42bc64c7846ef2f64, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5393717902147256158, guid: 835999027a04e6f42bc64c7846ef2f64, type: 3}
       propertyPath: NetworkId
       value: 719380f0-d822-49ee-9d5e-3349d1945ad0

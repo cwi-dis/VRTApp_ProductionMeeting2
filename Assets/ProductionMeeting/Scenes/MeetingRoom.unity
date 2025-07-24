@@ -5546,6 +5546,18 @@ PrefabInstance:
       propertyPath: NetworkId
       value: 3db6c34e-9657-44a8-a44f-88cda77a5b24
       objectReference: {fileID: 0}
+    - target: {fileID: 2878839419867591620, guid: 56ce66b554352458ab439702ebf3f769, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2878839419867591620, guid: 56ce66b554352458ab439702ebf3f769, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2878839419867591620, guid: 56ce66b554352458ab439702ebf3f769, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4170257853242692849, guid: 56ce66b554352458ab439702ebf3f769, type: 3}
       propertyPath: m_Name
       value: SceneChange
@@ -5557,6 +5569,10 @@ PrefabInstance:
     - target: {fileID: 4525123004095197083, guid: 56ce66b554352458ab439702ebf3f769, type: 3}
       propertyPath: NetworkId
       value: d6f17f33-0f2e-4c36-91b6-d91aa889c791
+      objectReference: {fileID: 0}
+    - target: {fileID: 5047229895682244872, guid: 56ce66b554352458ab439702ebf3f769, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8209762028040441920, guid: 56ce66b554352458ab439702ebf3f769, type: 3}
       propertyPath: NetworkId
