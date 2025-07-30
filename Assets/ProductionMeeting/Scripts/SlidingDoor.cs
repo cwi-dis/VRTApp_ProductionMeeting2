@@ -4,41 +4,42 @@ using UnityEngine;
 
 public class SlidingDoor : MonoBehaviour
 {
-    public Transform door; // 문 오브젝트
-    public Vector3 openPositionOffset = new Vector3(2f, 0f, 0f);
+    public Transform leftDoor;
+    public Transform rightDoor;
+    public Vector3 leftOffset = new Vector3(0f, 0f, 1.5f);  // 왼쪽으로 1.5m 이동
+    public Vector3 rightOffset = new Vector3(0f, 0f, -1.5f);  // 오른쪽으로 1.5m 이동
     public float speed = 2f;
 
-    private Vector3 closedPosition;
-    private Vector3 openPosition;
-    private bool isOpening = false;
+    private Vector3 leftClosedPos;
+    private Vector3 rightClosedPos;
+    private Vector3 leftOpenPos;
+    private Vector3 rightOpenPos;
+
+    private bool hasOpened = false;
 
     void Start()
     {
-        closedPosition = door.position;
-        openPosition = closedPosition + openPositionOffset;
+        // 문 원래 위치 저장
+        leftClosedPos = leftDoor.position;
+        rightClosedPos = rightDoor.position;
+
+        // 열릴 위치 계산
+        leftOpenPos = leftClosedPos + leftOffset;
+        rightOpenPos = rightClosedPos + rightOffset;
     }
 
     void Update()
     {
-        if (isOpening)
+        if (hasOpened)
         {
-            door.position = Vector3.Lerp(door.position, openPosition, Time.deltaTime * speed);
-        }
-        else
-        {
-            door.position = Vector3.Lerp(door.position, closedPosition, Time.deltaTime * speed);
+            leftDoor.position = Vector3.Lerp(leftDoor.position, leftOpenPos, Time.deltaTime * speed);
+            rightDoor.position = Vector3.Lerp(rightDoor.position, rightOpenPos, Time.deltaTime * speed);
         }
     }
 
-    void OnTriggerEnter(Collider other)
+    public void OpenDoor()
     {
-        if (other.CompareTag("Player"))
-            isOpening = true;
-    }
-
-    void OnTriggerExit(Collider other)
-    {
-        if (other.CompareTag("Player"))
-            isOpening = false;
+        if (!hasOpened)
+            hasOpened = true;
     }
 }
