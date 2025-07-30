@@ -16895,7 +16895,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startFadedOut: 0
   fadeOutText: 
-  allowDirectInteractionInScene: 0
+  allowDirectInteractionInScene: 1
   sceneIsSingleUser: 0
   NextSceneOnSessionEnd: VRTLoginManager
   m_directInteractionDisabled: 0

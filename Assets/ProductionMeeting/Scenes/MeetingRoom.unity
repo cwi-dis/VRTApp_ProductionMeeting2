@@ -5443,6 +5443,10 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6128550186270240979, guid: 2d2f4da4979e7431eaa5e669fdbbd008, type: 3}
+      propertyPath: allowDirectInteractionInScene
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6128550186270240979, guid: 2d2f4da4979e7431eaa5e669fdbbd008, type: 3}
       propertyPath: SceneChangeButton.Array.data[0]
       value: 
       objectReference: {fileID: 0}
