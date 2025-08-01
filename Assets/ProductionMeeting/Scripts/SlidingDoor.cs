@@ -10,6 +10,9 @@ public class SlidingDoor : MonoBehaviour
     public Vector3 rightOffset = new Vector3(0f, 0f, -1.5f);  // 오른쪽으로 1.5m 이동
     public float speed = 2f;
 
+    public AudioSource audioSource;
+    public AudioClip narrationClip;
+
     private Vector3 leftClosedPos;
     private Vector3 rightClosedPos;
     private Vector3 leftOpenPos;
@@ -39,7 +42,19 @@ public class SlidingDoor : MonoBehaviour
 
     public void OpenDoor()
     {
-        if (!hasOpened)
-            hasOpened = true;
+        if (!hasOpened){
+                hasOpened = true;
+                StartCoroutine(PlayNarrationAfterDelay());
+        }
     }
+
+    IEnumerator PlayNarrationAfterDelay()
+    {
+        yield return new WaitForSeconds(1.2f); // 문 연출 대기
+        if (audioSource != null && narrationClip != null)
+        {
+            audioSource.clip = narrationClip;
+            audioSource.Play();
+        }
+    }   
 }
