@@ -605,7 +605,7 @@ PrefabInstance:
     - target: {fileID: 5532528155555281607, guid: 56d312d674add4682bab61cef0408871, type: 3}
       propertyPath: OnTrigger.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 4747252273023258073}
+      objectReference: {fileID: 5158343671793694986}
     - target: {fileID: 5532528155555281607, guid: 56d312d674add4682bab61cef0408871, type: 3}
       propertyPath: OnTrigger.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
@@ -624,11 +624,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5532528155555281607, guid: 56d312d674add4682bab61cef0408871, type: 3}
       propertyPath: OnTrigger.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: Play
+      value: playSuccessSound
       objectReference: {fileID: 0}
     - target: {fileID: 5532528155555281607, guid: 56d312d674add4682bab61cef0408871, type: 3}
       propertyPath: OnTrigger.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
-      value: SetActive
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 5532528155555281607, guid: 56d312d674add4682bab61cef0408871, type: 3}
       propertyPath: OnTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -636,7 +636,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5532528155555281607, guid: 56d312d674add4682bab61cef0408871, type: 3}
       propertyPath: OnTrigger.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: UnityEngine.AudioSource, UnityEngine
+      value: ZoneTrigger, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 5532528155555281607, guid: 56d312d674add4682bab61cef0408871, type: 3}
       propertyPath: OnTrigger.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
@@ -665,6 +665,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3938899079734027357, guid: 56d312d674add4682bab61cef0408871, type: 3}
       insertIndex: -1
       addedObject: {fileID: 4747252273023258073}
+    - targetCorrespondingSourceObject: {fileID: 3938899079734027357, guid: 56d312d674add4682bab61cef0408871, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5158343671793694986}
   m_SourcePrefab: {fileID: 100100000, guid: 56d312d674add4682bab61cef0408871, type: 3}
 --- !u!4 &2514786623449363051 stripped
 Transform:
@@ -688,7 +691,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: f426d197d96777b4bb9aa30a44852091, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.5
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -772,3 +775,16 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &5158343671793694986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4060629700278101746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1401306397496047ae3dc8ca3e711a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  successSound: {fileID: 4747252273023258073}
