@@ -79,7 +79,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2
+  m_Intensity: 3
   m_Range: 5
   m_SpotAngle: 34.2
   m_InnerSpotAngle: 21.80208
@@ -595,13 +595,21 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5532528155555281607, guid: 56d312d674add4682bab61cef0408871, type: 3}
+      propertyPath: OnTrigger.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5532528155555281607, guid: 56d312d674add4682bab61cef0408871, type: 3}
       propertyPath: OnTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 5860395745675584645}
     - target: {fileID: 5532528155555281607, guid: 56d312d674add4682bab61cef0408871, type: 3}
-      propertyPath: OnTrigger.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      propertyPath: OnTrigger.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 4747252273023258073}
+    - target: {fileID: 5532528155555281607, guid: 56d312d674add4682bab61cef0408871, type: 3}
+      propertyPath: OnTrigger.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 5532528155555281607, guid: 56d312d674add4682bab61cef0408871, type: 3}
       propertyPath: OnTrigger.m_PersistentCalls.m_Calls.Array.data[3].m_Target
       value: 
@@ -616,7 +624,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5532528155555281607, guid: 56d312d674add4682bab61cef0408871, type: 3}
       propertyPath: OnTrigger.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: Reveal
+      value: Play
+      objectReference: {fileID: 0}
+    - target: {fileID: 5532528155555281607, guid: 56d312d674add4682bab61cef0408871, type: 3}
+      propertyPath: OnTrigger.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: SetActive
       objectReference: {fileID: 0}
     - target: {fileID: 5532528155555281607, guid: 56d312d674add4682bab61cef0408871, type: 3}
       propertyPath: OnTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -624,11 +636,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5532528155555281607, guid: 56d312d674add4682bab61cef0408871, type: 3}
       propertyPath: OnTrigger.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: RevealButton, Assembly-CSharp
+      value: UnityEngine.AudioSource, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 5532528155555281607, guid: 56d312d674add4682bab61cef0408871, type: 3}
       propertyPath: OnTrigger.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: UnityEngine.AudioSource, UnityEngine
+      value: UnityEngine.GameObject, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 5532528155555281607, guid: 56d312d674add4682bab61cef0408871, type: 3}
       propertyPath: OnTrigger.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_BoolArgument
