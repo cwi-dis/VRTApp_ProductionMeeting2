@@ -6687,6 +6687,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2107724670}
     - target: {fileID: 6128550186270240979, guid: 2d2f4da4979e7431eaa5e669fdbbd008, type: 3}
+      propertyPath: startFadedOut
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6128550186270240979, guid: 2d2f4da4979e7431eaa5e669fdbbd008, type: 3}
       propertyPath: portalSceneName
       value: MeetingRoom_2
       objectReference: {fileID: 0}

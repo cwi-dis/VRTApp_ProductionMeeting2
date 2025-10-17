@@ -16893,12 +16893,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 277db0b5518804a3e8d3efcb43b02ed2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startFadedOut: 0
+  startFadedOut: 1
   fadeOutText: 
   allowDirectInteractionInScene: 1
   sceneIsSingleUser: 0
   NextSceneOnSessionEnd: VRTLoginManager
   m_directInteractionDisabled: 0
+  enableCostume: 1
+  useKinectSkeletons: 0
+  enablePointcloudHead: 1
+  enableFade: 1
+  fadeInText: 
   sceneChange: {fileID: 1542580749}
 --- !u!1001 &1326014950
 PrefabInstance:
