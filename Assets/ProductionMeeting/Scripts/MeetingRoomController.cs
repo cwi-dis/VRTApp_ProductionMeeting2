@@ -2,10 +2,11 @@
 using VRT.Pilots.Common;
 using VRT.Core;
 using UnityEngine.SceneManagement;
+using VRT.Pilots.MediaScape;
 
 namespace VRT.Pilots.ProductionMeeting
 {
-    public class MeetingRoomController : PilotController
+    public class MeetingRoomController : MediaScapeController
     {
        
         public GameObject sceneChange;
