@@ -187,7 +187,7 @@
       }
     },
     "com.unity.visualscripting": {
-      "version": "1.9.6",
+      "version": "1.9.8",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -206,7 +206,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.interaction.toolkit": {
-      "version": "2.6.4",
+      "version": "2.6.5",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -232,7 +232,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.management": {
-      "version": "4.5.1",
+      "version": "4.5.2",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -270,16 +270,16 @@
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "376e373f09b576a93a155c561643b2ea7029cf16"
+      "hash": "202e7cc70fc3fb2f45d24f350351ba021a8c46ec"
     },
     "nl.cwi.dis.vr2gather": {
       "version": "git+https://github.com/cwi-dis/VR2Gather?path=/nl.cwi.dis.vr2gather",
       "depth": 0,
       "source": "git",
       "dependencies": {
-        "nl.cwi.dis.vr2gather.nativelibraries": "0.9.5",
-        "nl.cwi.dis.vr2gather.nativelibraries.webrtc": "0.9.5",
-        "nl.cwi.dis.cwipc": "7.6.3",
+        "nl.cwi.dis.vr2gather.nativelibraries": "0.9.11",
+        "nl.cwi.dis.vr2gather.nativelibraries.webrtc": "0.9.6",
+        "nl.cwi.dis.cwipc": "7.6.12",
         "com.itisnajim.socketiounity": "1.1.4",
         "com.unity.animation.rigging": "1.2.1",
         "com.unity.recorder": "4.0.2",
@@ -290,14 +290,14 @@
         "com.unity.xr.openxr": "1.10.0",
         "com.unity.nuget.newtonsoft-json": "3.2.1"
       },
-      "hash": "afee7a1edbc1abf768948732d20b9db3f423ee11"
+      "hash": "332416a81314cda2d9dff6dddee149593a02f4a9"
     },
     "nl.cwi.dis.vr2gather.nativelibraries": {
       "version": "git+https://github.com/cwi-dis/VR2G-nativeLibraries?path=/nl.cwi.dis.vr2gather.nativelibraries",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "e002c20d90ca445940cc256b43e9ee72e883f2a4"
+      "hash": "47bf010a37e96a3c5532abf7da898caad15104b6"
     },
     "nl.cwi.dis.vr2gather.nativelibraries.webrtc": {
       "version": "git+https://github.com/cwi-dis/VR2G-nativeLibraries-webrtc?path=/nl.cwi.dis.vr2gather.nativelibraries.webrtc",
