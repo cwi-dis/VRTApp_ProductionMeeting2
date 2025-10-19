@@ -35330,6 +35330,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 346188553839671069, guid: 3abf319d54dddaf4a97995bccc371cc7, type: 3}
+      propertyPath: m_Intensity
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 346188553839671071, guid: 3abf319d54dddaf4a97995bccc371cc7, type: 3}
       propertyPath: m_TagString
       value: Untagged
@@ -75440,6 +75444,10 @@ PrefabInstance:
     - target: {fileID: 814704896402058512, guid: 835999027a04e6f42bc64c7846ef2f64, type: 3}
       propertyPath: NetworkId
       value: 5916de3e-e93c-4eac-879e-f75a3821f7f0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1563026869195574477, guid: 835999027a04e6f42bc64c7846ef2f64, type: 3}
+      propertyPath: m_Intensity
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1563026869246715657, guid: 835999027a04e6f42bc64c7846ef2f64, type: 3}
       propertyPath: m_IsActive
@@ -139967,7 +139975,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 10
+  m_Intensity: 5
   m_Range: 10
   m_SpotAngle: 60
   m_InnerSpotAngle: 1
@@ -146326,6 +146334,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 'Spot Light '
       objectReference: {fileID: 0}
+    - target: {fileID: 346188553214348397, guid: 3abf319d54dddaf4a97995bccc371cc7, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 346188553214348690, guid: 3abf319d54dddaf4a97995bccc371cc7, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -146369,6 +146381,10 @@ PrefabInstance:
     - target: {fileID: 346188553214348690, guid: 3abf319d54dddaf4a97995bccc371cc7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 346188553839671069, guid: 3abf319d54dddaf4a97995bccc371cc7, type: 3}
+      propertyPath: m_Intensity
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 346188553839671071, guid: 3abf319d54dddaf4a97995bccc371cc7, type: 3}
       propertyPath: m_TagString
@@ -170260,7 +170276,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 10
+  m_Intensity: 5
   m_Range: 10
   m_SpotAngle: 60
   m_InnerSpotAngle: 1
@@ -172876,6 +172892,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8398282535172667531, guid: 83c290f0e950bf8499cbd8499fc0cfea, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8398282535987546353, guid: 83c290f0e950bf8499cbd8499fc0cfea, type: 3}
       propertyPath: m_Size.y
       value: 15.63
@@ -172891,6 +172911,10 @@ PrefabInstance:
     - target: {fileID: 8668823080932778443, guid: 83c290f0e950bf8499cbd8499fc0cfea, type: 3}
       propertyPath: m_Name
       value: Instruction Panel IS_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8668823080932778443, guid: 83c290f0e950bf8499cbd8499fc0cfea, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -179664,6 +179688,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 346188553839671069, guid: 3abf319d54dddaf4a97995bccc371cc7, type: 3}
+      propertyPath: m_Intensity
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 346188553839671071, guid: 3abf319d54dddaf4a97995bccc371cc7, type: 3}
       propertyPath: m_TagString
       value: Untagged
@@ -182189,6 +182217,10 @@ PrefabInstance:
     - target: {fileID: 814704896402058512, guid: 835999027a04e6f42bc64c7846ef2f64, type: 3}
       propertyPath: NetworkId
       value: 54fc6184-3bfa-43e4-88db-11398777c6d1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1563026869195574477, guid: 835999027a04e6f42bc64c7846ef2f64, type: 3}
+      propertyPath: m_Intensity
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1563026869915234344, guid: 835999027a04e6f42bc64c7846ef2f64, type: 3}
       propertyPath: NetworkId
