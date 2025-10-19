@@ -8109,7 +8109,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 7f8f4dd21855e554fa45a9145c9abe42, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.7
+  m_Volume: 0.1
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -30450,6 +30450,10 @@ PrefabInstance:
       propertyPath: NetworkId
       value: ad611b6f-6173-40a9-ad63-b38311fee499
       objectReference: {fileID: 0}
+    - target: {fileID: 868773530749952712, guid: 56ce66b554352458ab439702ebf3f769, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1818211641761053389, guid: 56ce66b554352458ab439702ebf3f769, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.054
@@ -30494,17 +30498,9 @@ PrefabInstance:
       propertyPath: NetworkId
       value: 610b010b-8a61-498a-9b92-562cf881b261
       objectReference: {fileID: 0}
-    - target: {fileID: 2996369565381309694, guid: 56ce66b554352458ab439702ebf3f769, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3767884480871728144, guid: 56ce66b554352458ab439702ebf3f769, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3995373780934996199, guid: 56ce66b554352458ab439702ebf3f769, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4170257853242692849, guid: 56ce66b554352458ab439702ebf3f769, type: 3}
       propertyPath: m_Name
@@ -30518,29 +30514,17 @@ PrefabInstance:
       propertyPath: NetworkId
       value: 20e4946e-629a-4f92-9991-67eefd5feb83
       objectReference: {fileID: 0}
-    - target: {fileID: 8117580417571788221, guid: 56ce66b554352458ab439702ebf3f769, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 8209762028040441920, guid: 56ce66b554352458ab439702ebf3f769, type: 3}
       propertyPath: NetworkId
       value: 07665df2-da1d-4a7f-9e1c-e10f30acdef3
       objectReference: {fileID: 0}
     - target: {fileID: 8209762028040441920, guid: 56ce66b554352458ab439702ebf3f769, type: 3}
-      propertyPath: OnTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8209762028040441920, guid: 56ce66b554352458ab439702ebf3f769, type: 3}
       propertyPath: OnTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 2108755284543123671}
-    - target: {fileID: 8209762028040441920, guid: 56ce66b554352458ab439702ebf3f769, type: 3}
-      propertyPath: OnTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: LoadSceneName
-      objectReference: {fileID: 0}
-    - target: {fileID: 8209762028040441920, guid: 56ce66b554352458ab439702ebf3f769, type: 3}
-      propertyPath: OnTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: VRT.Pilots.ProductionMeeting.MeetingRoomController, Assembly-CSharp
+    - target: {fileID: 8404966229225206218, guid: 56ce66b554352458ab439702ebf3f769, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8675368367459290270, guid: 56ce66b554352458ab439702ebf3f769, type: 3}
       propertyPath: NetworkId

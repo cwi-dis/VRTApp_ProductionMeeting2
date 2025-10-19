@@ -128358,11 +128358,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3606572636312163023, guid: 56ce66b554352458ab439702ebf3f769, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3767884480871728144, guid: 56ce66b554352458ab439702ebf3f769, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3995373780934996199, guid: 56ce66b554352458ab439702ebf3f769, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4170257853242692849, guid: 56ce66b554352458ab439702ebf3f769, type: 3}
       propertyPath: m_Name
@@ -128394,7 +128398,7 @@ PrefabInstance:
       objectReference: {fileID: 1889445723830627869}
     - target: {fileID: 8302569080709842426, guid: 56ce66b554352458ab439702ebf3f769, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8675368367459290270, guid: 56ce66b554352458ab439702ebf3f769, type: 3}
       propertyPath: NetworkId

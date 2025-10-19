@@ -19565,7 +19565,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 868773530749952712, guid: 56ce66b554352458ab439702ebf3f769, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1818211641761053389, guid: 56ce66b554352458ab439702ebf3f769, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19615,7 +19615,19 @@ PrefabInstance:
       propertyPath: NetworkId
       value: 7e0d0ca8-380c-4060-a36e-f98dfdf548ac
       objectReference: {fileID: 0}
+    - target: {fileID: 2996369565381309694, guid: 56ce66b554352458ab439702ebf3f769, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3606572636312163023, guid: 56ce66b554352458ab439702ebf3f769, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3767884480871728144, guid: 56ce66b554352458ab439702ebf3f769, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3995373780934996199, guid: 56ce66b554352458ab439702ebf3f769, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -19643,9 +19655,13 @@ PrefabInstance:
       propertyPath: OnTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1304331799}
-    - target: {fileID: 8404966229225206218, guid: 56ce66b554352458ab439702ebf3f769, type: 3}
+    - target: {fileID: 8302569080709842426, guid: 56ce66b554352458ab439702ebf3f769, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8404966229225206218, guid: 56ce66b554352458ab439702ebf3f769, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8675368367459290270, guid: 56ce66b554352458ab439702ebf3f769, type: 3}
       propertyPath: NetworkId
