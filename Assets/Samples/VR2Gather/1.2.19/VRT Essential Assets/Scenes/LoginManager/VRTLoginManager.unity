@@ -380,7 +380,58 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 130, y: 0, z: 0}
---- !u!1001 &539026059
+--- !u!1 &772475568
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 772475570}
+  - component: {fileID: 772475569}
+  m_Layer: 0
+  m_Name: LoginController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &772475569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 772475568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2146dc33a66e0c44a5643a2b8a05566, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startFadedOut: 0
+  fadeOutText: 
+  allowDirectInteractionInScene: 0
+  sceneIsSingleUser: 1
+  NextSceneOnSessionEnd: VRTLoginManager
+  m_directInteractionDisabled: 0
+  selfPlayer: {fileID: 1151372263}
+--- !u!4 &772475570
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 772475568}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 20.350273, y: -15.253078, z: 33.517204}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &794384125
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -437,57 +488,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 00831ec0ad9f840cc90f66bcf6420a8b, type: 3}
---- !u!1 &772475568
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 772475570}
-  - component: {fileID: 772475569}
-  m_Layer: 0
-  m_Name: LoginController
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &772475569
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 772475568}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e2146dc33a66e0c44a5643a2b8a05566, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startFadedOut: 0
-  fadeOutText: 
-  allowDirectInteractionInScene: 0
-  sceneIsSingleUser: 1
-  NextSceneOnSessionEnd: VRTLoginManager
-  m_directInteractionDisabled: 0
-  selfPlayer: {fileID: 1151372263}
---- !u!4 &772475570
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 772475568}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 20.350273, y: -15.253078, z: 33.517204}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1151372263 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5307623229320753525, guid: f39eb6158b5e82f449ae38845b9ae7cf, type: 3}
@@ -1616,7 +1616,7 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1542001135}
-  - {fileID: 539026059}
+  - {fileID: 794384125}
   - {fileID: 1110161537352404607}
   - {fileID: 5310739694599492227}
   - {fileID: 5480267396677910191}
