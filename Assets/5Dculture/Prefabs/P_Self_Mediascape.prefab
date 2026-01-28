@@ -380,6 +380,10 @@ PrefabInstance:
       value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 6825110016853729052, guid: fceec8934b5ae4fdaa36454e0b30346f, type: 3}
+      propertyPath: m_hmdTrackingAction.m_Reference
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6825110016853729052, guid: fceec8934b5ae4fdaa36454e0b30346f, type: 3}
       propertyPath: viewAdjusted.m_PersistentCalls.m_Calls.Array.size
       value: 4
       objectReference: {fileID: 0}
