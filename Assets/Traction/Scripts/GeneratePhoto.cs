@@ -5,7 +5,7 @@ using UnityEngine;
 using System;
 using TMPro;
 using VRT.Pilots.Common;
-using VRT.Orchestrator.Wrapping;
+// using VRT.Orchestrator.Wrapping;
 
 public class GeneratePhoto : NetworkInstantiator
 {
@@ -118,6 +118,7 @@ public class GeneratePhoto : NetworkInstantiator
 
     public void TakeShot()
     {
+#if xxxjack_temp_remove
         if (OrchestratorController.Instance.UserIsMaster)
         {
             if (debug) Debug.Log($"{Name()}: master user, calling Trigger() to have picture taken");
@@ -125,6 +126,7 @@ public class GeneratePhoto : NetworkInstantiator
         } else {
             if (debug) Debug.Log($"{Name()}: not master user, let them take the picture.");
         }
+#endif
     }
 }
 
