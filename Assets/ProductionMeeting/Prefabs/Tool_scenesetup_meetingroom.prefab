@@ -54,7 +54,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2108755285251549803, guid: 9908dcf284aef0e4a8ba245dc5f0f080, type: 3}
       propertyPath: m_Name
-      value: Tool_scenesetup_meetingroom Variant
+      value: Tool_scenesetup_meetingroom
       objectReference: {fileID: 0}
     - target: {fileID: 4264426995196595072, guid: 9908dcf284aef0e4a8ba245dc5f0f080, type: 3}
       propertyPath: NetworkId
@@ -98,9 +98,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 277db0b5518804a3e8d3efcb43b02ed2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startFadedOut: 0
+  startFadedOut: 1
   fadeOutText: 
-  allowDirectInteractionInScene: 0
-  sceneIsSingleUser: 0
+  allowDirectInteractionInScene: 1
   NextSceneOnSessionEnd: VRTLoginManager
+  playableInEditor: 1
+  configurationPrefab: {fileID: 8194004708595785846, guid: e71ab000118fc4644924cc8a8d34888b, type: 3}
+  orchestratorPrefab: {fileID: 3991120480309365947, guid: 59713b3d4e69349238a95c35e9f8994b, type: 3}
   m_directInteractionDisabled: 0
+  enableCostume: 0
+  useKinectSkeletons: 0
+  enablePointcloudHead: 0
+  enableFade: 1
+  fadeInText: 
+  sceneChange: {fileID: 0}

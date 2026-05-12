@@ -5701,10 +5701,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2107724670}
     - target: {fileID: 6128550186270240979, guid: 2d2f4da4979e7431eaa5e669fdbbd008, type: 3}
-      propertyPath: startFadedOut
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6128550186270240979, guid: 2d2f4da4979e7431eaa5e669fdbbd008, type: 3}
       propertyPath: portalSceneName
       value: MeetingRoom_2
       objectReference: {fileID: 0}
@@ -5713,24 +5709,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6128550186270240979, guid: 2d2f4da4979e7431eaa5e669fdbbd008, type: 3}
-      propertyPath: orchestratorPrefab
-      value: 
-      objectReference: {fileID: 3991120480309365947, guid: 59713b3d4e69349238a95c35e9f8994b, type: 3}
-    - target: {fileID: 6128550186270240979, guid: 2d2f4da4979e7431eaa5e669fdbbd008, type: 3}
-      propertyPath: configurationPrefab
-      value: 
-      objectReference: {fileID: 8194004708595785846, guid: e71ab000118fc4644924cc8a8d34888b, type: 3}
-    - target: {fileID: 6128550186270240979, guid: 2d2f4da4979e7431eaa5e669fdbbd008, type: 3}
       propertyPath: SceneChangeButton.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6128550186270240979, guid: 2d2f4da4979e7431eaa5e669fdbbd008, type: 3}
       propertyPath: sceneChangeButton.Array.size
       value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6128550186270240979, guid: 2d2f4da4979e7431eaa5e669fdbbd008, type: 3}
-      propertyPath: allowDirectInteractionInScene
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6128550186270240979, guid: 2d2f4da4979e7431eaa5e669fdbbd008, type: 3}
       propertyPath: 'SceneChangeButton.Array.data[0]'
