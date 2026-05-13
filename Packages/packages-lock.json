@@ -374,7 +374,7 @@
         "com.unity.xr.openxr": "1.16.1",
         "com.unity.nuget.newtonsoft-json": "3.2.2"
       },
-      "hash": "ec813cd3ec3e72fb5def35d7a37347034e229e84"
+      "hash": "1b21a3f8d6167aa53d2a68abc16f0b8dab2f2d24"
     },
     "nl.cwi.dis.vr2gather.nativelibraries": {
       "version": "git+https://github.com/cwi-dis/VR2G-nativeLibraries?path=/nl.cwi.dis.vr2gather.nativelibraries",
