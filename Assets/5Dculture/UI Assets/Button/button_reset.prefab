@@ -27,6 +27,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 454708246425674928}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: -1, z: 0, w: 0}
   m_LocalPosition: {x: -0.061, y: -0.325, z: 0.077}
   m_LocalScale: {x: 6.353766, y: 6.353766, z: 6.353766}
@@ -34,7 +35,6 @@ Transform:
   m_Children:
   - {fileID: 760575539196029365}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 180, y: 0, z: 180}
 --- !u!33 &4227606284873757103
 MeshFilter:
@@ -61,6 +61,11 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -83,9 +88,11 @@ MeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!65 &760575539163011557
 BoxCollider:
@@ -95,9 +102,17 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 454708246425674928}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 2
+  serializedVersion: 3
   m_Size: {x: 0.030569661, y: 0.008926911, z: 0.0059179906}
   m_Center: {x: -0.010841461, y: 0.0020600883, z: -0.0009297251}
 --- !u!114 &760575539163011558
@@ -115,14 +130,19 @@ MonoBehaviour:
   m_InteractionManager: {fileID: 0}
   m_Colliders:
   - {fileID: 760575539163011557}
-  m_InteractionLayerMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
   m_InteractionLayers:
     m_Bits: 4
   m_DistanceCalculationMode: 1
   m_SelectMode: 0
+  m_FocusMode: 1
   m_CustomReticle: {fileID: 0}
+  m_AllowGazeInteraction: 0
+  m_AllowGazeSelect: 0
+  m_OverrideGazeTimeToSelect: 0
+  m_GazeTimeToSelect: 0.5
+  m_OverrideTimeToAutoDeselectGaze: 0
+  m_TimeToAutoDeselectGaze: 3
+  m_AllowGazeAssistance: 0
   m_FirstHoverEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -147,6 +167,18 @@ MonoBehaviour:
   m_SelectExited:
     m_PersistentCalls:
       m_Calls: []
+  m_FirstFocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastFocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusExited:
+    m_PersistentCalls:
+      m_Calls: []
   m_Activated:
     m_PersistentCalls:
       m_Calls:
@@ -167,33 +199,9 @@ MonoBehaviour:
       m_Calls: []
   m_StartingHoverFilters: []
   m_StartingSelectFilters: []
-  m_OnFirstHoverEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnLastHoverExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnHoverEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnHoverExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnSelectEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnSelectExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnSelectCanceled:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnActivate:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnDeactivate:
-    m_PersistentCalls:
-      m_Calls: []
+  m_StartingInteractionStrengthFilters: []
+  m_AutoFindParentInteractableInHierarchy: 0
+  m_ParentInteractableObject: {fileID: 0}
 --- !u!1 &760575539196029364
 GameObject:
   m_ObjectHideFlags: 0
@@ -220,13 +228,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 760575539196029364}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 938052817004068362}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &760575539196029367
 AudioSource:
@@ -238,7 +246,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 010fabf3da5ea7840a1366bcf4388b9b, type: 3}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: 010fabf3da5ea7840a1366bcf4388b9b, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1

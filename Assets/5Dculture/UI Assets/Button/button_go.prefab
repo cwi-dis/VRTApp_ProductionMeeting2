@@ -25,13 +25,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6313452254320928831}
+  serializedVersion: 2
   m_LocalRotation: {x: -0.2883953, y: -0.6455217, z: 0.6456223, w: -0.2886206}
   m_LocalPosition: {x: -0.0038477257, y: -0.073214844, z: 0.003600796}
   m_LocalScale: {x: 289.8548, y: 317.4602, z: -60.060047}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5771180528122440745}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -89.98, y: 0, z: -90}
 --- !u!114 &6313452254320928816
 MonoBehaviour:
@@ -85,7 +85,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 010fabf3da5ea7840a1366bcf4388b9b, type: 3}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: 010fabf3da5ea7840a1366bcf4388b9b, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -198,6 +199,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6583289250737026707}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.7071068, y: 0.7071068, z: 0, w: 0}
   m_LocalPosition: {x: 0.293, y: -0.14, z: -0.019}
   m_LocalScale: {x: 30.258, y: 22.6935, z: 27.2322}
@@ -205,7 +207,6 @@ Transform:
   m_Children:
   - {fileID: 6313452254320928830}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 90}
 --- !u!33 &7473866003935175564
 MeshFilter:
@@ -232,6 +233,11 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -254,9 +260,11 @@ MeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!65 &6313452256244976582
 BoxCollider:
@@ -266,9 +274,17 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6583289250737026707}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 2
+  serializedVersion: 3
   m_Size: {x: 0.0050016367, y: 0.005001641, z: 0.0014757756}
   m_Center: {x: -0.000000014906668, y: -2.4463025e-12, z: 0.00006158634}
 --- !u!114 &6313452256244976633
@@ -286,14 +302,19 @@ MonoBehaviour:
   m_InteractionManager: {fileID: 0}
   m_Colliders:
   - {fileID: 6313452256244976582}
-  m_InteractionLayerMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
   m_InteractionLayers:
     m_Bits: 4
   m_DistanceCalculationMode: 1
   m_SelectMode: 0
+  m_FocusMode: 1
   m_CustomReticle: {fileID: 0}
+  m_AllowGazeInteraction: 0
+  m_AllowGazeSelect: 0
+  m_OverrideGazeTimeToSelect: 0
+  m_GazeTimeToSelect: 0.5
+  m_OverrideTimeToAutoDeselectGaze: 0
+  m_TimeToAutoDeselectGaze: 3
+  m_AllowGazeAssistance: 0
   m_FirstHoverEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -318,6 +339,18 @@ MonoBehaviour:
   m_SelectExited:
     m_PersistentCalls:
       m_Calls: []
+  m_FirstFocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastFocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusExited:
+    m_PersistentCalls:
+      m_Calls: []
   m_Activated:
     m_PersistentCalls:
       m_Calls:
@@ -338,30 +371,6 @@ MonoBehaviour:
       m_Calls: []
   m_StartingHoverFilters: []
   m_StartingSelectFilters: []
-  m_OnFirstHoverEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnLastHoverExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnHoverEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnHoverExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnSelectEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnSelectExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnSelectCanceled:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnActivate:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnDeactivate:
-    m_PersistentCalls:
-      m_Calls: []
+  m_StartingInteractionStrengthFilters: []
+  m_AutoFindParentInteractableInHierarchy: 0
+  m_ParentInteractableObject: {fileID: 0}
