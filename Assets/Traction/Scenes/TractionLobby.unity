@@ -962,8 +962,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 10513168}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnGrab
-        m_Mode: 1
+        m_MethodName: OnSelectEnter
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -977,7 +977,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 10513168}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnRelease
+        m_MethodName: OnSelectExit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4368,8 +4368,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 85196187}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnGrab
-        m_Mode: 1
+        m_MethodName: OnSelectEnter
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -4383,7 +4383,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 85196187}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnRelease
+        m_MethodName: OnSelectExit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4648,8 +4648,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 968077611}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnGrab
-        m_Mode: 1
+        m_MethodName: OnSelectEnter
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -4663,7 +4663,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 968077611}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnRelease
+        m_MethodName: OnSelectExit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -9536,8 +9536,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 173057107}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnGrab
-        m_Mode: 1
+        m_MethodName: OnSelectEnter
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -9551,7 +9551,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 173057107}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnRelease
+        m_MethodName: OnSelectExit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -15421,8 +15421,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 205619466}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnGrab
-        m_Mode: 1
+        m_MethodName: OnSelectEnter
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -15436,7 +15436,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 205619466}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnRelease
+        m_MethodName: OnSelectExit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -19952,8 +19952,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 306879740}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnGrab
-        m_Mode: 1
+        m_MethodName: OnSelectEnter
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -19967,7 +19967,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 306879740}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnRelease
+        m_MethodName: OnSelectExit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -21496,8 +21496,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 346855417}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnGrab
-        m_Mode: 1
+        m_MethodName: OnSelectEnter
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -21511,7 +21511,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 346855417}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnRelease
+        m_MethodName: OnSelectExit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -35856,8 +35856,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 466731788}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnGrab
-        m_Mode: 1
+        m_MethodName: OnSelectEnter
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -35871,7 +35871,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 466731788}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnRelease
+        m_MethodName: OnSelectExit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -59273,8 +59273,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 656391570}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnGrab
-        m_Mode: 1
+        m_MethodName: OnSelectEnter
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -59288,7 +59288,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 656391570}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnRelease
+        m_MethodName: OnSelectExit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -65763,8 +65763,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 968077607}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnGrab
-        m_Mode: 1
+        m_MethodName: OnSelectEnter
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -65778,7 +65778,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 968077607}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnRelease
+        m_MethodName: OnSelectExit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -66606,8 +66606,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 691625061}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnGrab
-        m_Mode: 1
+        m_MethodName: OnSelectEnter
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -66621,7 +66621,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 691625061}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnRelease
+        m_MethodName: OnSelectExit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -66827,8 +66827,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 691625065}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnGrab
-        m_Mode: 1
+        m_MethodName: OnSelectEnter
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -66842,7 +66842,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 691625065}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnRelease
+        m_MethodName: OnSelectExit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -74018,8 +74018,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 781766222}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnGrab
-        m_Mode: 1
+        m_MethodName: OnSelectEnter
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -74033,7 +74033,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 781766222}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnRelease
+        m_MethodName: OnSelectExit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -74329,8 +74329,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 785468248}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnGrab
-        m_Mode: 1
+        m_MethodName: OnSelectEnter
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -74344,7 +74344,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 785468248}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnRelease
+        m_MethodName: OnSelectExit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -74636,8 +74636,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 790119921}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnGrab
-        m_Mode: 1
+        m_MethodName: OnSelectEnter
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -74651,7 +74651,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 790119921}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnRelease
+        m_MethodName: OnSelectExit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -77869,8 +77869,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 851700707}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnGrab
-        m_Mode: 1
+        m_MethodName: OnSelectEnter
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -77884,7 +77884,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 851700707}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnRelease
+        m_MethodName: OnSelectExit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -92173,8 +92173,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 964143419}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnGrab
-        m_Mode: 1
+        m_MethodName: OnSelectEnter
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -92188,7 +92188,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 964143419}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnRelease
+        m_MethodName: OnSelectExit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -94674,8 +94674,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 968077627}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnGrab
-        m_Mode: 1
+        m_MethodName: OnSelectEnter
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -94689,7 +94689,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 968077627}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnRelease
+        m_MethodName: OnSelectExit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -94828,8 +94828,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 968077629}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnGrab
-        m_Mode: 1
+        m_MethodName: OnSelectEnter
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -94843,7 +94843,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 968077629}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnRelease
+        m_MethodName: OnSelectExit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -94982,8 +94982,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 968077631}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnGrab
-        m_Mode: 1
+        m_MethodName: OnSelectEnter
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -94997,7 +94997,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 968077631}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnRelease
+        m_MethodName: OnSelectExit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -95136,8 +95136,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 968077633}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnGrab
-        m_Mode: 1
+        m_MethodName: OnSelectEnter
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -95151,7 +95151,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 968077633}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnRelease
+        m_MethodName: OnSelectExit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -95290,8 +95290,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 968077635}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnGrab
-        m_Mode: 1
+        m_MethodName: OnSelectEnter
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -95305,7 +95305,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 968077635}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnRelease
+        m_MethodName: OnSelectExit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -97764,8 +97764,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 968077603}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnGrab
-        m_Mode: 1
+        m_MethodName: OnSelectEnter
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -97779,7 +97779,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 968077603}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnRelease
+        m_MethodName: OnSelectExit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -97950,8 +97950,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 968077625}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnGrab
-        m_Mode: 1
+        m_MethodName: OnSelectEnter
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -97965,7 +97965,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 968077625}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnRelease
+        m_MethodName: OnSelectExit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -104307,8 +104307,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 968077601}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnGrab
-        m_Mode: 1
+        m_MethodName: OnSelectEnter
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -104322,7 +104322,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 968077601}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnRelease
+        m_MethodName: OnSelectExit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -104461,8 +104461,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 968077599}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnGrab
-        m_Mode: 1
+        m_MethodName: OnSelectEnter
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -104476,7 +104476,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 968077599}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnRelease
+        m_MethodName: OnSelectExit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -109463,8 +109463,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1073478060}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnGrab
-        m_Mode: 1
+        m_MethodName: OnSelectEnter
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -109478,7 +109478,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1073478060}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnRelease
+        m_MethodName: OnSelectExit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -109684,8 +109684,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1073653974}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnGrab
-        m_Mode: 1
+        m_MethodName: OnSelectEnter
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -109699,7 +109699,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1073653974}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnRelease
+        m_MethodName: OnSelectExit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -110404,8 +110404,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 968077613}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnGrab
-        m_Mode: 1
+        m_MethodName: OnSelectEnter
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -110419,7 +110419,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 968077613}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnRelease
+        m_MethodName: OnSelectExit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -111996,8 +111996,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 968077597}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnGrab
-        m_Mode: 1
+        m_MethodName: OnSelectEnter
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -112011,7 +112011,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 968077597}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnRelease
+        m_MethodName: OnSelectExit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -123279,8 +123279,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 968077615}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnGrab
-        m_Mode: 1
+        m_MethodName: OnSelectEnter
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -123294,7 +123294,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 968077615}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnRelease
+        m_MethodName: OnSelectExit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -123773,8 +123773,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1203077824}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnGrab
-        m_Mode: 1
+        m_MethodName: OnSelectEnter
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -123788,7 +123788,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1203077824}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnRelease
+        m_MethodName: OnSelectExit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -124544,8 +124544,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1214464852}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnGrab
-        m_Mode: 1
+        m_MethodName: OnSelectEnter
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -124559,7 +124559,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1214464852}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnRelease
+        m_MethodName: OnSelectExit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -125402,8 +125402,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 968077623}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnGrab
-        m_Mode: 1
+        m_MethodName: OnSelectEnter
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -125417,7 +125417,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 968077623}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnRelease
+        m_MethodName: OnSelectExit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -128069,8 +128069,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1297368541}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnGrab
-        m_Mode: 1
+        m_MethodName: OnSelectEnter
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -128084,7 +128084,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1297368541}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnRelease
+        m_MethodName: OnSelectExit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -138437,6 +138437,18 @@ PrefabInstance:
       propertyPath: m_InteractionLayers.m_Bits
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6348095429475399743, guid: 436623d9cdd3bfe4ca595df79428822b, type: 3}
+      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6348095429475399743, guid: 436623d9cdd3bfe4ca595df79428822b, type: 3}
+      propertyPath: m_SelectExited.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnSelectExit
+      objectReference: {fileID: 0}
+    - target: {fileID: 6348095429475399743, guid: 436623d9cdd3bfe4ca595df79428822b, type: 3}
+      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnSelectEnter
+      objectReference: {fileID: 0}
     - target: {fileID: 6348095429475401668, guid: 436623d9cdd3bfe4ca595df79428822b, type: 3}
       propertyPath: m_Name
       value: OBJ_Umbrella (1)
@@ -138962,8 +138974,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1476191170}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnGrab
-        m_Mode: 1
+        m_MethodName: OnSelectEnter
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -138977,7 +138989,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1476191170}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnRelease
+        m_MethodName: OnSelectExit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -142455,8 +142467,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 968077621}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnGrab
-        m_Mode: 1
+        m_MethodName: OnSelectEnter
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -142470,7 +142482,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 968077621}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnRelease
+        m_MethodName: OnSelectExit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -142754,8 +142766,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 968077609}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnGrab
-        m_Mode: 1
+        m_MethodName: OnSelectEnter
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -142769,7 +142781,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 968077609}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnRelease
+        m_MethodName: OnSelectExit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -144808,8 +144820,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1629188789}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnGrab
-        m_Mode: 1
+        m_MethodName: OnSelectEnter
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -144823,7 +144835,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1629188789}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnRelease
+        m_MethodName: OnSelectExit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -145962,8 +145974,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1659359525}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnGrab
-        m_Mode: 1
+        m_MethodName: OnSelectEnter
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -145977,7 +145989,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1659359525}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnRelease
+        m_MethodName: OnSelectExit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -163432,6 +163444,18 @@ PrefabInstance:
       propertyPath: m_InteractionLayers.m_Bits
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6348095429475399743, guid: 436623d9cdd3bfe4ca595df79428822b, type: 3}
+      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6348095429475399743, guid: 436623d9cdd3bfe4ca595df79428822b, type: 3}
+      propertyPath: m_SelectExited.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnSelectExit
+      objectReference: {fileID: 0}
+    - target: {fileID: 6348095429475399743, guid: 436623d9cdd3bfe4ca595df79428822b, type: 3}
+      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnSelectEnter
+      objectReference: {fileID: 0}
     - target: {fileID: 6348095429475401668, guid: 436623d9cdd3bfe4ca595df79428822b, type: 3}
       propertyPath: m_Name
       value: OBJ_Umbrella (1)
@@ -164199,8 +164223,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 968077617}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnGrab
-        m_Mode: 1
+        m_MethodName: OnSelectEnter
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -164214,7 +164238,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 968077617}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnRelease
+        m_MethodName: OnSelectExit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -170214,8 +170238,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1878621077}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnGrab
-        m_Mode: 1
+        m_MethodName: OnSelectEnter
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -170229,7 +170253,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1878621077}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnRelease
+        m_MethodName: OnSelectExit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -175299,8 +175323,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2024887664}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnGrab
-        m_Mode: 1
+        m_MethodName: OnSelectEnter
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -175314,7 +175338,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2024887664}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnRelease
+        m_MethodName: OnSelectExit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -177065,8 +177089,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 968077619}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnGrab
-        m_Mode: 1
+        m_MethodName: OnSelectEnter
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -177080,7 +177104,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 968077619}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnRelease
+        m_MethodName: OnSelectExit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -177251,8 +177275,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 968077605}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnGrab
-        m_Mode: 1
+        m_MethodName: OnSelectEnter
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -177266,7 +177290,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 968077605}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnRelease
+        m_MethodName: OnSelectExit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -178012,8 +178036,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2090307058}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnGrab
-        m_Mode: 1
+        m_MethodName: OnSelectEnter
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -178027,7 +178051,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2090307058}
         m_TargetAssemblyTypeName: VRT.Pilots.Common.VRTGrabbableController, Pilots
-        m_MethodName: OnRelease
+        m_MethodName: OnSelectExit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -190142,6 +190166,18 @@ PrefabInstance:
       propertyPath: m_InteractionLayers.m_Bits
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 983062657, guid: d527b3e32e49b7e4abe6fd70f9570496, type: 3}
+      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 983062657, guid: d527b3e32e49b7e4abe6fd70f9570496, type: 3}
+      propertyPath: m_SelectExited.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnSelectExit
+      objectReference: {fileID: 0}
+    - target: {fileID: 983062657, guid: d527b3e32e49b7e4abe6fd70f9570496, type: 3}
+      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnSelectEnter
+      objectReference: {fileID: 0}
     - target: {fileID: 2480665596878088967, guid: d527b3e32e49b7e4abe6fd70f9570496, type: 3}
       propertyPath: m_Name
       value: OBJ_Red hat
@@ -191706,6 +191742,18 @@ PrefabInstance:
     - target: {fileID: 499895033, guid: 67d28f0c38148c3489bbf7d0f129854f, type: 3}
       propertyPath: m_InteractionLayers.m_Bits
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 499895033, guid: 67d28f0c38148c3489bbf7d0f129854f, type: 3}
+      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 499895033, guid: 67d28f0c38148c3489bbf7d0f129854f, type: 3}
+      propertyPath: m_SelectExited.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnSelectExit
+      objectReference: {fileID: 0}
+    - target: {fileID: 499895033, guid: 67d28f0c38148c3489bbf7d0f129854f, type: 3}
+      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnSelectEnter
       objectReference: {fileID: 0}
     - target: {fileID: 4024250273545368716, guid: 67d28f0c38148c3489bbf7d0f129854f, type: 3}
       propertyPath: m_Name
@@ -195668,6 +195716,18 @@ PrefabInstance:
     - target: {fileID: 6348095429475399743, guid: 436623d9cdd3bfe4ca595df79428822b, type: 3}
       propertyPath: m_InteractionLayers.m_Bits
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6348095429475399743, guid: 436623d9cdd3bfe4ca595df79428822b, type: 3}
+      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6348095429475399743, guid: 436623d9cdd3bfe4ca595df79428822b, type: 3}
+      propertyPath: m_SelectExited.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnSelectExit
+      objectReference: {fileID: 0}
+    - target: {fileID: 6348095429475399743, guid: 436623d9cdd3bfe4ca595df79428822b, type: 3}
+      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnSelectEnter
       objectReference: {fileID: 0}
     - target: {fileID: 6348095429475401668, guid: 436623d9cdd3bfe4ca595df79428822b, type: 3}
       propertyPath: m_Name
