@@ -64,10 +64,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tool_scenesetup_mediascape
       objectReference: {fileID: 0}
-    - target: {fileID: 2257919381870908284, guid: 9908dcf284aef0e4a8ba245dc5f0f080, type: 3}
-      propertyPath: m_RequirePokeFilter
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4264426995196595072, guid: 9908dcf284aef0e4a8ba245dc5f0f080, type: 3}
       propertyPath: NetworkId
       value: 
@@ -83,18 +79,6 @@ PrefabInstance:
     - target: {fileID: 6447309684348885663, guid: 9908dcf284aef0e4a8ba245dc5f0f080, type: 3}
       propertyPath: NetworkId
       value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6508379098497225753, guid: 9908dcf284aef0e4a8ba245dc5f0f080, type: 3}
-      propertyPath: m_RequirePokeFilter
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8452580689192787784, guid: 9908dcf284aef0e4a8ba245dc5f0f080, type: 3}
-      propertyPath: m_RequirePokeFilter
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9083932446028006189, guid: 9908dcf284aef0e4a8ba245dc5f0f080, type: 3}
-      propertyPath: m_RequirePokeFilter
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2108755284289232089, guid: 9908dcf284aef0e4a8ba245dc5f0f080, type: 3}
