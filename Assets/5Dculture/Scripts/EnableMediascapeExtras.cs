@@ -32,6 +32,7 @@ public class EnableMediascapeExtras : MonoBehaviour
             {
                 // There should be a better way to determine whether or not to use skeleton data...
                 bool useSkeletons = ctrl.useKinectSkeletons;
+#if VRT_WITH_KINECT_SKELETONS
                 if (useSkeletons)
                 {
                     // Enable skeleton grabbing, if the capturer supports it.
@@ -47,6 +48,7 @@ public class EnableMediascapeExtras : MonoBehaviour
                         pc_reader.SetWantSkeleton(true);
                     }
                 }
+#endif
                 // Enable the correct input parameters for controlling the costume
                 // (either the skeleton-based parameters or the controller-based parameters)
                 VRRigControllers?.SetActive(!useSkeletons);

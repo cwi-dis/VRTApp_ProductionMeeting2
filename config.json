@@ -1,37 +1,47 @@
 {
+    "configVersion": 20260311,
     "orchestratorURL": "http://192.16.197.145:8090/",
+    "userConfigFilename": "config-user.json",
+    "configOverrideFilename": "/Users/jack/src/VRTogether/VRTApp_ProductionMeeting2/config.json",
     "targetFrameRate": -1,
+    "disableVR": false,
     "ntpSyncThreshold": 0.10000000149011612,
-    "statsInterval": 10.0,
-    "statsOutputFile": "",
-    "statsOutputFileAppend": false,
     "ffmpegDLLDir": "../ffmpeg/x64",
     "autoInventUsername": true,
-    "ScreenshotTool": {
-        "takeScreenshot": false,
-        "screenshotTargetDirectory": ""
+    "StatisticsConfig": {
+        "interval": 10.0,
+        "outputFile": "",
+        "outputFileAppend": true
     },
-    "AutoStart": {
-        "ignoreAutoStartForDeveloper": false,
-        "autoLogin": true,
+    "ScreenshotConfig": {
+        "takeScreenshot": false,
+        "fps": 0,
+        "screenshotTargetDirectory": "",
+        "preDeleteTargetDirectory": true,
+        "filenameTemplate": "Frame{framenum}.png"
+    },
+    "AutoStartConfig": {
         "autoCreate": false,
+        "autoCreateStandalone": false,
         "autoJoin": false,
-        "autoCreateForUser": "topinambur",
-        "sessionName": "Production Meeting",
-        "sessionScenario": "MeetingRoom",
+        "autoCreateForUser": "",
+        "sessionName": "",
+        "sessionScenario": "",
         "sessionTransportProtocol": "",
         "sessionUncompressed": false,
         "sessionUncompressedAudio": false,
-        "autoStartWith": 2,
+        "autoStartWith": -1,
         "autoLeaveAfter": 0.0,
-        "autoStopAfterLeave": true,
-        "autoDelay": 1.0
+        "autoStopAfterLeave": false,
+        "autoDelay": 0.20000000298023225
     },
-    "TransportDash": {
-        "segmentSize": 1000,
-        "segmentLife": 16000
+    "TransportDashConfig": {
+        "segmentSize": 4000,
+        "segmentLife": 15000,
+        "logLevel": 0,
+        "nativeLibraryPath": ""
     },
-    "TransportWebRTC": {
+    "TransportWebRTCConfig": {
         "peerExecutablePath": "",
         "peerInWindow": false,
         "peerWindowDontClose": false,
@@ -40,10 +50,12 @@
         "logFileDirectory": "",
         "debugLevel": 0
     },
-    "PCs": {
+    "CwipcConfig": {
+        "logLevel": 2,
+        "overrideNativeLoadPath": "",
         "Codec": "cwi1",
-        "defaultCellSize": 0.0020000000949949028,
-        "cellSizeFactor": 1.0,
+        "defaultCellSize": 0.0,
+        "cellSizeFactor": 0.0,
         "debugColorize": false,
         "timeoutBeforeGhosting": 5.0,
         "decoderQueueSizeOverride": 0,
@@ -52,65 +64,65 @@
         "decoderParallelism": 0,
         "preparerQueueSize": 0
     },
-    "Voice": {
+    "VoiceConfig": {
         "audioFps": 50,
-        "maxPlayoutLatency": 0.06599999964237213,
+        "maxPlayoutLatency": 0.30000001192092898,
         "maxPlayoutAhead": 0.06599999964237213,
         "preparerQueueSize": 0,
-        "ignoreSynchronizer": true
+        "ignoreSynchronizer": false
     },
-    "Synchronizer": {
+    "SynchronizerConfig": {
         "debugSynchronizer": false,
         "debugJitterBuffer": false,
-        "minLatency": 100,
-        "maxLatency": 5000,
+        "minLatency": 0,
+        "maxLatency": 0,
         "latencyMaxDecrease": 1,
         "latencyMaxIncrease": 33,
         "acceptDesyncOnDataUnavailable": false
     },
-    "TileSelector": {
+    "PointCloudTransmissionConfig": {
+        "tiled": false,
+        "EncoderConfigs": []
+    },
+    "TileSelectorConfig": {
         "algorithm": "",
         "debugDecisions": false,
         "bitrateBudget": 0
     },
-    "VQEGLatencies": [],
-    "temp": 0,
-    "LocalUser": {
-        "orchestratorConfigFilename": "config-user.json",
-        "PCSelfConfig": {
-            "capturerType": 0,
-            "capturerTypeName": "",
-            "CameraReaderConfig": {
+    "PositionTrackerConfig": {
+        "outputFile": "",
+        "outputIntervalOverride": 0,
+        "inputFile": ""
+    },
+    "RepresentationConfig": {
+        "userName": "sap",
+        "representation": 1,
+        "representation_str": "SimpleAvatar",
+        "webcamName": "",
+        "microphoneName": "",
+        "userRepresentationTCPUrl": "",
+        "RepresentationPointcloudConfig": {
+            "variant": 0,
+            "variant_str": "camera",
+            "CameraConfig": {
                 "configFilename": ""
             },
-            "RemoteCameraReaderConfig": {
+            "RemoteConfig": {
                 "url": "",
                 "isCompressed": false
             },
-            "ProxyReaderConfig": {
+            "ProxyConfig": {
                 "localIP": "",
-                "port": 9335
+                "port": 0
             },
-            "SynthReaderConfig": {
-                "nPoints": 16000
+            "SyntheticConfig": {
+                "nPoints": 0
             },
-            "PrerecordedReaderConfig": {
-                "folder": "../cwipc_test/Samples/loot-150K-4tiles"
+            "PrerecordedConfig": {
+                "folder": ""
             },
             "voxelSize": 0.0,
-            "frameRate": 15.0,
-            "tiled": false,
-            "Encoders": [
-                {
-                    "octreeBits": 9
-                }
-            ]
-        },
-        "PositionTracker": {
-            "outputFile": "",
-            "outputIntervalOverride": 0,
-            "inputFile": ""
+            "frameRate": 0.0
         }
-    },
-    "configOverrideFilename": ""
+    }
 }
