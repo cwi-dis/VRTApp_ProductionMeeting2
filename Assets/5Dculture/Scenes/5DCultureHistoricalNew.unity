@@ -79631,10 +79631,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tool_scenesetup
       objectReference: {fileID: 0}
-    - target: {fileID: 2257919381870908284, guid: 9908dcf284aef0e4a8ba245dc5f0f080, type: 3}
-      propertyPath: m_RequirePokeFilter
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2333450745003151681, guid: 9908dcf284aef0e4a8ba245dc5f0f080, type: 3}
       propertyPath: m_TagString
       value: Player
@@ -79687,10 +79683,6 @@ PrefabInstance:
       propertyPath: NetworkId
       value: ac2f5bf1-6aa8-4842-85b9-13ec6a0aa9c8
       objectReference: {fileID: 0}
-    - target: {fileID: 6508379098497225753, guid: 9908dcf284aef0e4a8ba245dc5f0f080, type: 3}
-      propertyPath: m_RequirePokeFilter
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7353836897957631147, guid: 9908dcf284aef0e4a8ba245dc5f0f080, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -79734,14 +79726,6 @@ PrefabInstance:
     - target: {fileID: 7984341276662548752, guid: 9908dcf284aef0e4a8ba245dc5f0f080, type: 3}
       propertyPath: m_TagString
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 8452580689192787784, guid: 9908dcf284aef0e4a8ba245dc5f0f080, type: 3}
-      propertyPath: m_RequirePokeFilter
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9083932446028006189, guid: 9908dcf284aef0e4a8ba245dc5f0f080, type: 3}
-      propertyPath: m_RequirePokeFilter
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2108755284289232089, guid: 9908dcf284aef0e4a8ba245dc5f0f080, type: 3}
