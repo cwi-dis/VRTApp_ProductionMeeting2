@@ -95,7 +95,7 @@
         "inputFile": ""
     },
     "RepresentationConfig": {
-        "userName": "sap",
+        "userName": "",
         "representation": 1,
         "representation_str": "SimpleAvatar",
         "webcamName": "",
