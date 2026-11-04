@@ -194,6 +194,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2845361881820347177, guid: d8daed3a0f2fa41a2955b61b87840f3b, type: 3}
+      propertyPath: headFilter
+      value: 
+      objectReference: {fileID: 5900827834193405920}
     - target: {fileID: 4024455705769473861, guid: d8daed3a0f2fa41a2955b61b87840f3b, type: 3}
       propertyPath: neck.includeYRotation
       value: 1
@@ -778,6 +782,11 @@ Transform:
 --- !u!4 &5751297909128456437 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7366724042972213328, guid: fceec8934b5ae4fdaa36454e0b30346f, type: 3}
+  m_PrefabInstance: {fileID: 3020625101201365157}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5900827834193405920 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8649331447979163461, guid: fceec8934b5ae4fdaa36454e0b30346f, type: 3}
   m_PrefabInstance: {fileID: 3020625101201365157}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &6550867290896254605 stripped
