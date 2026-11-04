@@ -20,6 +20,63 @@ public class EnableMediascapeExtras : MonoBehaviour
     public GameObject VRRigControllers;
     [Tooltip("Only enable costume for visible representations only")]
     public bool butOnlyWhenVisible = true;
+
+    PlayerTrackingTargets subscribedTargets;
+    SizeAdjust subscribedSizeAdjust;
+
+    void Awake()
+    {
+        WireCostumeToPlayer();
+    }
+
+    void OnDestroy()
+    {
+        if (subscribedTargets != null && subscribedSizeAdjust != null)
+        {
+            subscribedTargets.ViewAdjusted -= subscribedSizeAdjust.AdjustHeight;
+        }
+    }
+
+    /// <summary>
+    /// Connect the costume rigging (SyncSkeletonToVRRig) and costume sizing (SizeAdjust) to the
+    /// head/neck/hand transforms of the player we are part of, the same way VR2Gather's
+    /// PlayerRepresentationWirer does for avatars. These used to be prefab overrides pointing into
+    /// the player rig, which broke when VR2Gather replaced that rig.
+    /// Done in Awake because SizeAdjust.Start() needs SourceTop. The player's hand models are not
+    /// hidden: the costume has no hands of its own.
+    /// </summary>
+    void WireCostumeToPlayer()
+    {
+        var targets = GetComponentInParent<PlayerTrackingTargets>();
+        if (targets == null)
+        {
+            Debug.LogWarning($"{name}: EnableMediascapeExtras: no PlayerTrackingTargets in parent hierarchy, costume not rigged");
+            return;
+        }
+        var sync = GetComponentInChildren<SyncSkeletonToVRRig>(true);
+        if (sync != null)
+        {
+            sync.head.vrTarget = targets.head;
+            sync.neck.vrTarget = targets.neck;
+            sync.leftHand.vrTarget = targets.leftHand;
+            sync.rightHand.vrTarget = targets.rightHand;
+        }
+        else
+        {
+            Debug.LogWarning($"{name}: EnableMediascapeExtras: no SyncSkeletonToVRRig, costume not rigged");
+        }
+        var sizeAdjust = GetComponentInChildren<SizeAdjust>(true);
+        if (sizeAdjust != null)
+        {
+            // Measure at the neck, like PlayerRepresentationWirer (VR2Gather #356)
+            sizeAdjust.SourceTop = targets.neck.gameObject;
+            sizeAdjust.SourceBottom = targets.gameObject;
+            targets.ViewAdjusted += sizeAdjust.AdjustHeight;
+            subscribedTargets = targets;
+            subscribedSizeAdjust = sizeAdjust;
+        }
+    }
+
     // Start is called before the first frame update
     void Start()
     {
