@@ -15,7 +15,7 @@
     "com.unity.xr.oculus": "4.5.2",
     "com.unity.xr.openxr": "1.16.1",
     "nl.cwi.dis.cwipc": "git+https://github.com/cwi-dis/cwipc_unity?path=/nl.cwi.dis.cwipc#v8.2.0",
-    "nl.cwi.dis.vr2gather": "git+https://github.com/cwi-dis/VR2Gather?path=/nl.cwi.dis.vr2gather#v1.4.4",
+    "nl.cwi.dis.vr2gather": "git+https://github.com/cwi-dis/VR2Gather?path=/nl.cwi.dis.vr2gather#c9edc62a55b4e8110327c706618361b6cd0e65a0",
     "nl.cwi.dis.vr2gather.nativelibraries": "git+https://github.com/cwi-dis/VR2G-nativeLibraries?path=/nl.cwi.dis.vr2gather.nativelibraries",
     "nl.cwi.dis.vr2gather.nativelibraries.webrtc": "git+https://github.com/cwi-dis/VR2G-nativeLibraries-webrtc?path=/nl.cwi.dis.vr2gather.nativelibraries.webrtc",
     "com.unity.modules.accessibility": "1.0.0",
